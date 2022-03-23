@@ -43,22 +43,39 @@
     display: block;
 }
 
-.card .icon1 {
-    font-size: 4rem;
-    font-weight: 600;
-    padding: 1rem;
+.card .img1 {
+    width: 100%;
+    height:auto;
 }
 
+.card .img2 {
+    width: 100%;
+    height:auto;
+}
+.card .img3 {
+    width: 100%;
+    height:auto;
+}
 .pricing p {
     color: #eee;
     padding: 1rem 0;
     font-size: 1.2rem;
 }
 
-.card .btn {
+.card button {
     display: block;
-    width: 80%;
     margin: 2rem auto;
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 22px;
+    text-align: center;
+    background: #fff;
+    border: 2px solid;
+    color: #4b4586;
+    height: 4rem;
+    width: auto;
 }
 
 @media screen and (max-width: 980px) {
