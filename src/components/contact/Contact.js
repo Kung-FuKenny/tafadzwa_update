@@ -17,16 +17,16 @@ const Faq = () => {
     <section id="faq">
       <div className="container faq">
         <div className="u-title" data-aos="fade-up">
-          <h2>Contact Us</h2>
-          <p className="u-text-small">
-          Tel: +27 11 438 4300
-          </p>
-          <p className="u-text-small">
-          Fax: +27 86 535 8624
-          </p>
-          <p className="u-text-small">
-          Email: reception@tafadzwa.co.za
-          </p>
+         <h2>Our Branches</h2>
+           {/* <p className="u-text-small">
+           Tel: +27 11 438 4300
+           </p>
+           <p className="u-text-small">
+           Fax: +27 86 535 8624
+           </p>
+           <p className="u-text-small">
+           Email: reception@tafadzwa.co.za
+           </p> */}
           <div className="u-title" data-aos="fade-up">
           
           </div> 
@@ -40,6 +40,7 @@ const Faq = () => {
               key={question.id}
               title={question.title}
               answer={question.answer}
+              answer2={question.answer2}
             />
           ))}
         </div>

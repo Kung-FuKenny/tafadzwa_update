@@ -7,9 +7,9 @@ const Pricing = () => {
         <div className='pricing'>
             <div className='card-container'>
                 <div className='card'>
-                    <h3>-   Job A -</h3>
+                    <h3>-   O.D Specialist -</h3>
                     <span className='bar'></span>
-                    <p className='btc'>1 BTC</p>
+                    <p className='icon1'>1 BTC</p>
                     <p>- 3 Days -</p>
                     <p>- Views -</p>
                     <p>- Featured -</p>

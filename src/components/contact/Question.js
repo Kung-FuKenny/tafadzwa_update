@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Question.css";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 
-const Question = ({ title, answer }) => {
+const Question = ({ title, answer , answer2, answer3 }) => {
   const [showAnswer, setShowAnswer] = useState(false);
 
   const handleClick = () => {
@@ -23,6 +23,12 @@ const Question = ({ title, answer }) => {
       </div>
       <div className="question-answer">
         {showAnswer && <p className="u-text-small">{answer}</p>}
+      </div>
+      <div className="question-answer">
+        {showAnswer && <p className="u-text-small">{answer2}</p>}
+      </div>
+      <div className="question-answer">
+        {showAnswer && <p className="u-text-small">{answer3}</p>}
       </div>
     </div>
   );
