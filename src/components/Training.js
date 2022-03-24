@@ -5,6 +5,10 @@ import {Link} from 'react-router-dom'
 
 import Pod from '../assets/pod.jpg'
 import Moon from '../assets/moon.jpg'
+import Pod1 from '../assets/pod1.jpg'
+import Moon1 from '../assets/moon1.jpg'
+import Pod2 from '../assets/pod2.jpg'
+import Moon2 from '../assets/moon2.jpg'
 
 const Training = () => {
     return (
@@ -27,10 +31,10 @@ const Training = () => {
             <div className='s_left'>
                 <div className='img-container'>
                     <div className='image-stack top'>
-                        <img src={Moon} className='img' alt='' />
+                        <img src={Moon1} className='img' alt='' />
                     </div>
                     <div className='image-stack bottom'>
-                        <img src={Pod} className='img' alt='' />
+                        <img src={Pod1} className='img' alt='' />
                     </div>
                 </div>
             </div>
@@ -50,10 +54,10 @@ const Training = () => {
             <div className='t_right'>
                 <div className='img-container'>
                     <div className='image-stack top'>
-                        <img src={Moon} className='img' alt='' />
+                        <img src={Moon2} className='img' alt='' />
                     </div>
                     <div className='image-stack bottom'>
-                        <img src={Pod} className='img' alt='' />
+                        <img src={Pod2} className='img' alt='' />
                     </div>
                 </div>
             </div>
