@@ -1,0 +1,17 @@
+
+#MultiItemCarousel{
+    text-align: center;
+    background: #fff;
+}
+
+
+
+.carousel h1 {
+    justify-content: center;
+    text-align: center;
+    display: block;
+    font-size: 2.3em;
+    font-weight: bold;
+    color: #ffff;
+    padding: 1rem;
+} 
